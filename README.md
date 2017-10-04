@@ -1,7 +1,7 @@
 # goserverclienttls
 Example of communication between a server and a client in go using tls for authentication for both client and server.
 
-##What
+## What
 
 When you communicate between a http server and a client you sometimes need a secure connection. That is, you will access your server by using __https://...__ instead of __http://...__.
 
@@ -14,7 +14,7 @@ There are however situations when you want to identify and authorize the client 
 This exemple just shows how to use a certificate (which uses encryption of course), to also identify the client.
 
 
-##How
+## How
 
 To use this example you need to have the __go__ compiler installed
 
